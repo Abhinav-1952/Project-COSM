@@ -9,7 +9,7 @@ Multi-Column CSV Support • Z / T / F Tests • Auto-Detection • Manual Overr
 
 ---
 
-# 📘 **Overview**
+#  **Overview**
 
 ApexStat Engine is a lightweight, transparent statistical testing toolkit written entirely in Java.  
 It performs hypothesis testing on CSV datasets using manually implemented formulas—no external libraries.
@@ -19,17 +19,17 @@ Non-numeric values and text are automatically ignored.
 
 The toolkit performs:
 
-- ✔ One-sample Z Test  
-- ✔ One-sample T Test  
-- ✔ Two-sample T Test  
-- ✔ F Test  
-- ✔ Z Test for Difference Between Two Means  
+- One-sample Z Test  
+- One-sample T Test  
+- Two-sample T Test  
+- F Test  
+- Z Test for Difference Between Two Means  
 
 Designed for students, analysts, researchers, and developers who want accuracy, readability, and total control.
 
 ---
 
-# 📥 **Input: Multi-Column CSV Files**
+#  **Input: Multi-Column CSV Files**
 
 Your CSV may contain:
 
@@ -57,11 +57,11 @@ You can choose any column (1 = Age, 2 = Height, 3 = Weight).
 
 ---
 
-# 🧪 **Population Mean and Standard Deviation (Your Dataset)**
+#  **Population Mean and Standard Deviation (Your Dataset)**
 
 These values were computed from the datasets you previously uploaded.
 
-### ⭐ **Dataset 1 (Sample 1)**
+### **Dataset 1 (Sample 1)**
 Use these when asked for mean/SD in T-tests or manual Z-tests:
 
 - **Population Mean (μ₁): 51.2568**  
@@ -69,16 +69,16 @@ Use these when asked for mean/SD in T-tests or manual Z-tests:
 
 ---
 
-### ⭐ **Dataset 2 (Sample 2)**
+### **Dataset 2 (Sample 2)**
 
 - **Population Mean (μ₂): 62.1918**  
 - **Population Standard Deviation (σ₂): 2.7729**
 
 ---
 
-# 📌 **When to Enter These Values**
+#  **When to Enter These Values**
 
-### ✔ For **One-Sample Z Test (Sample 1)**  
+### For **One-Sample Z Test (Sample 1)**  
 Enter:
 
 ```
@@ -86,7 +86,7 @@ Mean = 51.2568
 SD   = 3.5031
 ```
 
-### ✔ For **One-Sample Z Test (Sample 2)**  
+### For **One-Sample Z Test (Sample 2)**  
 Enter:
 
 ```
@@ -102,13 +102,13 @@ SD of Sample 1 = 3.5031
 SD of Sample 2 = 2.7729
 ```
 
-### ✔ For T Tests  
+### For T Tests  
 Only **mean** is required.  
 Enter the same means above unless you want to use another target population mean.
 
 ---
 
-# 🚀 **How to Run**
+# **How to Run**
 
 ### 1. Place CSV files in same folder as `Main.java`
 ### 2. Compile:
@@ -141,7 +141,7 @@ Enter which column number to use:
 
 ---
 
-# 🎯 **Why ApexStat Engine?**
+#  **Why ApexStat Engine?**
 
 - Pure Java — no external dependencies  
 - Multi-column CSV handling  
@@ -152,7 +152,7 @@ Enter which column number to use:
 
 ---
 
-# 🤝 **Contributing**
+#  **Contributing**
 
 Pull requests welcome — feel free to add:
 
@@ -163,7 +163,7 @@ Pull requests welcome — feel free to add:
 
 ---
 
-# 📜 License
+# License
 
 MIT License — free for personal, educational, and commercial use.
 
