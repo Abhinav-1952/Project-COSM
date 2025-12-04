@@ -94,7 +94,7 @@ Mean = 62.1918
 SD   = 2.7729
 ```
 
-### ✔ For **Z Test (Difference Between Means)**  
+### For **Z Test (Difference Between Means)**  
 Enter:
 
 ```
