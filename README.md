@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# ⚡ **ApexStat Engine**
+#  **ApexStat Engine**
 ### *Precision Statistical Testing in Pure Java*  
 Multi-Column CSV Support • Z / T / F Tests • Auto-Detection • Manual Override
 
